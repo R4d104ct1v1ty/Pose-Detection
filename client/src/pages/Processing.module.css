@@ -1,0 +1,21 @@
+#textbox {
+    background-color: red;
+}
+.textbox {
+    background-color: blue;
+}
+.process_box {
+    text-align: center;
+}
+.dual_box {
+    display: flex;
+    flex: row wrap;
+    justify-content: flex-start safe;
+    gap: 10px;
+    padding: 10px;
+    background-color: green;
+}
+.file_chooser {
+    background-color: yellow;
+    flex-grow: 1;
+}
