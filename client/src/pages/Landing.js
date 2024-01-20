@@ -45,9 +45,15 @@ function Landing() {
             <h5>ABOUT</h5>
             <hr />
             <div className="paragraph about">
-    
+
             </div>
+          </div>
+          <div className="Contact us">
+            <h5>CONTACT US</h5>
+            <hr />
           </div>
         </div>
       );
 }
+
+export default Landing;
