@@ -1,0 +1,11 @@
+.icon {
+    --factor: 0.5;
+    padding: 2px;
+    overflow: hidden;
+    background-image: url("../../public/loading_icon.webp");
+    height: calc(var(--factor) * 60px);
+    width: calc(var(--factor) * 60px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(var(--factor) * 424px) calc(var(--factor) * 360px);
+}

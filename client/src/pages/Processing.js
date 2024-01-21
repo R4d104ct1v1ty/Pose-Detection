@@ -1,5 +1,6 @@
 import styles from './Processing.module.css'; 
 import FileChooser from '../components/FileChooser';
+import LoadingIcon from '../components/LoadingIcon';
 
 const Processing = () => {
   return (
@@ -11,6 +12,7 @@ const Processing = () => {
                 <FileChooser />
             </div>
             <button className={styles.submit_button}>Process</button>
+            <LoadingIcon />
         </div>
     </div>
   );

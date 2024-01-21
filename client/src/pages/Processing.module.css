@@ -21,4 +21,13 @@
     padding: 10px;
     background-color: green;
 }
+.submit_button {
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 100px;
+    transition-duration: 0.4s;
+}
+.submit_button:hover {
+    background-color: grey;
+}
 
