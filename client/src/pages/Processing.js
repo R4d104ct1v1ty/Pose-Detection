@@ -3,8 +3,8 @@ import FileChooser from '../components/FileChooser';
 
 const Processing = () => {
   return (
-    <div id="processing_page">
-        <span id="textbox" className={styles.textbox}>HELLO WORLD</span>
+    <div id="processing_page" className={styles.processing_page}>
+        <span id="textbox">HELLO WORLD</span>
         <div id="process_box" className={styles.process_box}>
             <div className={styles.dual_box}>
                 <FileChooser />
