@@ -5,13 +5,18 @@
     background-color: blue;
 }
 .process_box {
-    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     padding: 10px;
+    gap: 10px;
 }
 .dual_box {
     display: flex;
-    flex: row wrap;
-    justify-content: flex-start safe;
+    flex-flow: row wrap;
+    justify-content: safe flex-start;
+    align-self: stretch;
+    height: 500px;
     gap: 10px;
     padding: 10px;
     background-color: green;
