@@ -1,9 +1,15 @@
-import styles from './FileChooser.module.css'; 
+import styles from './FileChooser.module.css';
 
-const FileChooser = () => {
+function FileChooser({id, passFileFunc}) {
+
+  function getFile(){
+    passFileFunc();
+  }
+
   return (
-    <div className={styles.file_chooser}>
-        <br /><input type="file"></input>
+    <div className={styles.file_chooser} id={id}>
+        <br /><input type="file" onChange={()=>getFile()}></input>
+        <button onClick={()=>getFile()}>CLICKETY</button>
     </div>
   );
 }
